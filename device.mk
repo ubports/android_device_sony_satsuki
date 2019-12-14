@@ -157,3 +157,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fingerprintd
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/halium/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
